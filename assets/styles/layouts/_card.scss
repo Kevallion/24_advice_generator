@@ -53,11 +53,6 @@
         cursor: pointer;
         transition: 0.4s ease;
 
-        &:active{
-            img{
-                animation: rolDice 2s ease-in-out;
-            }
-        }
         &:hover{
             img{
                 transform: scale(1.5)
@@ -67,18 +62,6 @@
             width: 24px;
             object-fit: contain;
             transition: 0.5s ease-in-out;
-            &:hover{
-                
-            }
         }
-    }
-}
-
-@keyframes rolDice {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-       transform: rotate(270deg);
     }
 }
